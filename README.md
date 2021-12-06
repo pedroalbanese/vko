@@ -1,5 +1,5 @@
 # VKO 
-### GOST R 34.10-2012 VKO (выработка ключа общего) key agreement function (RFC 7836)
+### GOST R 34.10-2012 VKO (выработка ключа общего) (RFC 7836)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](https://github.com/pedroalbanese/vko/blob/master/LICENSE.md) 
 [![GoDoc](https://godoc.org/github.com/pedroalbanese/vko?status.png)](http://godoc.org/github.com/pedroalbanese/vko)
 [![Go Report Card](https://goreportcard.com/badge/github.com/pedroalbanese/vko)](https://goreportcard.com/report/github.com/pedroalbanese/vko)
