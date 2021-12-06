@@ -7,16 +7,16 @@
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/pedroalbanese/vko)](https://github.com/pedroalbanese/vko/releases)
 
 VKO is an elliptic curve Diffie-Hellman key agreement function using GOST R 34.10-2012. It allows two parties to jointly agree on a shared secret using an insecure channel.
-### Command-line VKO Diffie-Hellman Tool:
+### Command-line VKO Tool:
 <pre>Usage of vko:
-  -derive
-        Derive shared secret key.
   -key string
-        Private key.
+        Our private key.
   -keygen
-        Generate ed25519 asymmetric keypair.
+        Generate keypair.
+  -paramset string
+        ParamSet. (default "A")
   -pub string
-        Remote's side Public key.</pre>
+        Remote's side public key.</pre>
 
 ### Examples:
 ```sh
