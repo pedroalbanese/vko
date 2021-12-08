@@ -1,5 +1,6 @@
 # VKO 
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](https://github.com/pedroalbanese/vko/blob/master/LICENSE.md) 
+[![GitHub downloads](https://img.shields.io/github/downloads/pedroalbanese/vko/total.svg?logo=github&logoColor=white)](https://github.com/pedroalbanese/vko/releases)
 [![GoDoc](https://godoc.org/github.com/pedroalbanese/vko?status.png)](http://godoc.org/github.com/pedroalbanese/vko)
 [![Go Report Card](https://goreportcard.com/badge/github.com/pedroalbanese/vko)](https://goreportcard.com/report/github.com/pedroalbanese/vko)
 [![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/pedroalbanese/vko)](https://golang.org)
