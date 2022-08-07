@@ -15,7 +15,7 @@ VKO is an elliptic curve Diffie-Hellman key agreement function using GOST R 34.1
   -keygen
         Generate keypair.
   -paramset string
-        ParamSet. (default "A")
+        ParamSet: A, B, C or D. (default "A")
   -pub string
         Remote's side public key.</pre>
 
