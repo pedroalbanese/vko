@@ -15,7 +15,7 @@ import (
 )
 
 var (
-	paramset = flag.String("paramset", "A", "ParamSet.")
+	paramset = flag.String("paramset", "A", "ParamSet: A, B, C or D.")
 	pubHex   = flag.String("pub", "", "Remote's side public key.")
 	prvHex   = flag.String("key", "", "Our private key.")
 	keygen   = flag.Bool("keygen", false, "Generate keypair.")
