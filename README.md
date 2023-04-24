@@ -8,6 +8,31 @@
 
 ### GOST R 34.10-2012 VKO (выработка ключа общего)
 VKO is an elliptic curve Diffie-Hellman key agreement function using GOST R 34.10-2012. It allows two parties to jointly agree on a shared secret using an insecure channel.
+
+```
+            Alice                            Bob
+            -----                            ---
+        choose private key           choose private key
+             d_A                             d_B
+              |                               |
+              v                               v
+        compute public key:          compute public key:
+    Q_A = d_A * BasePoint_TE        Q_B = d_B * BasePoint_TE
+              |                               |
+              v                               v
+          ------- Begin Key Exchange Phase -------
+              |                               |
+              v                               v
+        compute shared secret:       compute shared secret:
+ S_A = d_A * Q_B + d_A * BasePoint  S_B = d_B * Q_A + d_B * BasePoint
+              |                               |
+              v                               v
+           -------- End Key Exchange Phase -------
+              |                               |
+              v                               |
+            (S_A)                           (S_B)
+ ``` 
+     
 ### Command-line VKO Tool:
 <pre>Usage of vko:
   -key string
