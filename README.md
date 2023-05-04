@@ -29,7 +29,7 @@ S_A = d_A * Q_B + d_A * BasePoint S_B = d_B * Q_A + d_B * BasePoint
               v                               v
           -------- End Key Exchange Phase --------
               |                               |
-              v                               |
+              v                               v
             (S_A)                           (S_B)
  ``` 
      
