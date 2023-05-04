@@ -24,7 +24,7 @@ VKO is an elliptic curve Diffie-Hellman key agreement function using GOST R 34.1
               |                               |
               v                               v
       compute shared secret:         compute shared secret:
- S_A = d_A * Q_B + d_A * BasePoint S_B = d_B * Q_A + d_B * BasePoint
+S_A = d_A * Q_B + d_A * BasePoint S_B = d_B * Q_A + d_B * BasePoint
               |                               |
               v                               v
            -------- End Key Exchange Phase -------
