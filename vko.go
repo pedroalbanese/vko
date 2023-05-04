@@ -41,7 +41,7 @@ func main() {
 	case "D":
 		curve = gost3410.CurveIdtc26gost34102012256paramSetD()
 	default:
-		panic(errors.New("unknown curve specified"))
+		log.Fatal(err)
 	}
 
 	var err error
@@ -59,7 +59,7 @@ func main() {
 		fmt.Fprintln(os.Stderr, "Private:", hex.EncodeToString(prvRaw))
 		prv, err = gost3410.NewPrivateKey(curve, prvRaw)
 		if err != nil {
-			panic(err)
+			log.Fatal(err)
 		}
 
 		pub, err = prv.PublicKey()
